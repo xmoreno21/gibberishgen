@@ -6,7 +6,7 @@ from random import randint, choice
 CLIENT_PUBLIC_KEY = environ['CLIENT_PUBLIC_KEY']
 # Note to self: When adding to Checkr in Sound's World, ensure to update the interactions endpoint url in DDevs portal, and client public key in railway env vars
 app = Flask(__name__)
-fullwords = englishwords + (customwords * 2)
+fullwords = englishwords + (customwords * 3)
 
 @app.route('/', methods=['GET'])
 def index():
@@ -17,7 +17,7 @@ def responsetest():
     sentencelength = randint(4, 12)
     # sentences always start with a name
     sentence = choice(importantnames)
-    n = 0
+    n = 1
     while n < sentencelength:
         sentence += f' {choice(fullwords)}'
         n += 1
@@ -26,4 +26,11 @@ def responsetest():
 @app.route('/interactions', methods=['POST'])
 @verify_key_decorator(CLIENT_PUBLIC_KEY)
 def interactions():
-    return jsonify({'type': IntRespType.CHANNEL_MESSAGE_WITH_SOURCE, 'data': {'content': 'Hello World'}})
+    sentencelength = randint(4, 12)
+    # sentences always start with a name
+    sentence = choice(importantnames)
+    n = 0
+    while n < sentencelength:
+        sentence += f' {choice(fullwords)}'
+        n += 1
+    return jsonify({'type': IntRespType.CHANNEL_MESSAGE_WITH_SOURCE, 'data': {'content': sentence}})
