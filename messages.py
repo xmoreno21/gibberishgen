@@ -4,7 +4,7 @@
 # importantnames - will preface every message with a random name from this list
 importantnames = ['SoundDrout', 'Walker', 'Shinni', 'Elizabeth', 'Samantha', 'Undermaster', 'Dwam', 'Grav', 'Origix', 'Melody', 'Braden', 'Splidgers', 'Midnight', 'Pink', 'Pusheen', 'IceWizard', 
 '<@416798214415450112>', 'Coobez', 'Frenchtoast', 'Brees', 'Adam', 'Frost', 'Esmecar', 'Axis', 'Frozn', 'Marisa', 'Crystal', 'Foreverably', 'Nevo', 'Gabby', 'Jiwachii', 'Zeldek', 'Greg', 'Buboi', 'Ben', 
-'Sarah', 'Jazzy', 'VV$K', 'kaboom', 'Hazel', 'Kirby', 'Yawbus', 'Vetlix', 'Syd', 'Angye', 'Shuckle']
+'Sarah', 'Jazzy', 'VV$K', 'kaboom', 'Hazel', 'Kirby', 'Yawbus', 'Vetlix', 'Syd', 'Angye', 'Shuckle', 'Elijah', 'Cris']
 
 # englishwords - will be used to generate random words for the messages. Pulled from a website of the 3000 most common english words
 # https://www.ef.com/wwen/english-resources/english-vocabulary/top-3000-words/
@@ -177,4 +177,4 @@ englishwords = ['a', 'abandon', 'ability', 'able', 'abortion', 'about', 'above',
 
 # customwords - Random Sound's World specific words that I thought of at midnight lol
 customwords = ['skibidi', 'Discord', 'Head Mod', 'Sound\'s World', 'Sound\'s Utilities', 'YouTube', 'Google', 'moderator', 'appeal', 'Checkr', 'Levelr', 'mute', 'muted', 'banned',
-'banancat', 'skibidi toilet', 'Simon Says']
+'banancat', 'skibidi toilet', 'Simon Says', 'https://discord.com/channels/452237221840551938/692878100446314516/827287133362192385']
