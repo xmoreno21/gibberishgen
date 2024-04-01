@@ -4,7 +4,7 @@
 # importantnames - will preface every message with a random name from this list
 importantnames = ['SoundDrout', 'Walker', 'Shinni', 'Elizabeth', 'Samantha', 'Undermaster', 'Dwam', 'Grav', 'Origix', 'Melody', 'Braden', 'Splidgers', 'Midnight', 'Pink', 'Pusheen', 'IceWizard', 
 'Xmo', 'Coobez', 'Frenchtoast', 'Brees', 'Adam', 'Frost', 'Esmecar', 'Axis', 'Frozn', 'Marisa', 'Crystal', 'Foreverably', 'Nevo', 'Gabby', 'Jiwachii', 'Zeldek', 'Greg', 'Buboi', 'Ben', 
-'Sarah', 'Jazzy', 'VV$K', 'kaboom', 'Hazel', 'Kirby', 'Yawbus', 'Vetlix', 'Syd']
+'Sarah', 'Jazzy', 'VV$K', 'kaboom', 'Hazel', 'Kirby', 'Yawbus', 'Vetlix', 'Syd', 'Angye']
 
 # englishwords - will be used to generate random words for the messages. Pulled from a website of the 3000 most common english words
 # https://www.ef.com/wwen/english-resources/english-vocabulary/top-3000-words/
@@ -141,7 +141,7 @@ englishwords = ['a', 'abandon', 'ability', 'able', 'abortion', 'about', 'above',
 'scheme', 'scholar', 'scholarship', 'school', 'science', 'scientific', 'scientist', 'scope', 'score', 'scream', 'screen', 'script', 'sea', 'search', 'season', 'seat', 'second', 'secret', 
 'secretary', 'section', 'sector', 'secure', 'security', 'see', 'seed', 'seek', 'seem', 'segment', 'seize', 'select', 'selection', 'self', 'sell', 'Senate', 'senator', 'send', 'senior', 'sense', 
 'sensitive', 'sentence', 'separate', 'sequence', 'series', 'serious', 'seriously', 'serve', 'service', 'session', 'set', 'setting', 'settle', 'settlement', 'seven', 'several', 'severe', 
-'sexual', 'shade', 'shadow', 'shake', 'shall', 'shape', 'share', 'sharp', 'she', 'sheet', 'shelf', 'shell', 'shelter', 'shift', 'shine', 'ship', 'shirt', 'shock', 'shoe', 'shoot', 'shooting', 
+'shade', 'shadow', 'shake', 'shall', 'shape', 'share', 'sharp', 'she', 'sheet', 'shelf', 'shell', 'shelter', 'shift', 'shine', 'ship', 'shirt', 'shock', 'shoe', 'shoot', 'shooting', 
 'shop', 'shopping', 'shore', 'short', 'shortly', 'shot', 'should', 'shoulder', 'shout', 'show', 'shower', 'shrug', 'shut', 'sick', 'side', 'sigh', 'sight', 'sign', 'signal', 'significance', 
 'significant', 'significantly', 'silence', 'silent', 'silver', 'similar', 'similarly', 'simple', 'simply', 'sin', 'since', 'sing', 'singer', 'single', 'sink', 'sir', 'sister', 'sit', 'site', 
 'situation', 'six', 'size', 'ski', 'skill', 'skin', 'sky', 'slave', 'sleep', 'slice', 'slide', 'slight', 'slightly', 'slip', 'slow', 'slowly', 'small', 'smart', 'smell', 'smile', 'smoke', 
@@ -176,5 +176,5 @@ englishwords = ['a', 'abandon', 'ability', 'able', 'abortion', 'about', 'above',
 'wrong', 'yard', 'yeah', 'year', 'yell', 'yellow', 'yes', 'yesterday', 'yet', 'yield', 'you', 'young', 'your', 'yours', 'yourself', 'youth', 'zone']
 
 # customwords - Random Sound's World specific words that I thought of at midnight lol
-customwords = ['skibidi', 'Discord', 'Head Mod', 'Sound\'s World', 'Sound\'s Utilities', 'YouTube', 'Apple', 'Google', 'moderator', 'appeal', 'Checkr', 'Levelr', 'mute', 'muted', 'banned',
-'banancat']
+customwords = ['skibidi', 'Discord', 'Head Mod', 'Sound\'s World', 'Sound\'s Utilities', 'YouTube', 'Google', 'moderator', 'appeal', 'Checkr', 'Levelr', 'mute', 'muted', 'banned',
+'banancat', 'skibidi toilet']
