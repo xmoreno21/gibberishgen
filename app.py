@@ -6,7 +6,7 @@ from random import randint, choice
 CLIENT_PUBLIC_KEY = environ['CLIENT_PUBLIC_KEY']
 # Note to self: When adding to Checkr in Sound's World, ensure to update the interactions endpoint url in DDevs portal, and client public key in railway env vars
 app = Flask(__name__)
-fullwords = englishwords + (customwords * 4)
+fullwords = englishwords + (customwords * 10)
 
 @app.route('/', methods=['GET'])
 def index():

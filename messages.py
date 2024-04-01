@@ -3,7 +3,7 @@
 
 # importantnames - will preface every message with a random name from this list
 importantnames = ['SoundDrout', 'Walker', 'Shinni', 'Elizabeth', 'Samantha', 'Undermaster', 'Dwam', 'Grav', 'Origix', 'Melody', 'Braden', 'Splidgers', 'Midnight', 'Pink', 'Pusheen', 'IceWizard', 
-'Xmo', 'Coobez', 'Frenchtoast', 'Brees', 'Adam', 'Frost', 'Esmecar', 'Axis', 'Frozn', 'Marisa', 'Crystal', 'Foreverably', 'Nevo', 'Cris', 'Gabby', 'Jiwachii', 'Zeldek', 'Greg', 'Buboi', 'Ben', 
+'Xmo', 'Coobez', 'Frenchtoast', 'Brees', 'Adam', 'Frost', 'Esmecar', 'Axis', 'Frozn', 'Marisa', 'Crystal', 'Foreverably', 'Nevo', 'Gabby', 'Jiwachii', 'Zeldek', 'Greg', 'Buboi', 'Ben', 
 'Sarah', 'Jazzy', 'VV$K', 'kaboom', 'Hazel', 'Kirby', 'Yawbus', 'Vetlix', 'Syd']
 
 # englishwords - will be used to generate random words for the messages. Pulled from a website of the 3000 most common english words
