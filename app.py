@@ -1,9 +1,12 @@
-from flask import Flask, request, jsonify
-from Config import IntType, IntRespType, verify_key_decorator
+from flask import Flask, jsonify
+from Config import IntRespType, verify_key_decorator
 from os import environ
+from messages import importantnames, englishwords, customwords
+from random import randint, choice
 CLIENT_PUBLIC_KEY = environ['CLIENT_PUBLIC_KEY']
-
+# Note to self: When adding to Checkr in Sound's World, ensure to update the interactions endpoint url in DDevs portal, and client public key in railway env vars
 app = Flask(__name__)
+fullwords = englishwords + customwords
 
 @app.route('/', methods=['GET'])
 def index():
@@ -11,7 +14,14 @@ def index():
 
 @app.route('/responsetest', methods=['GET'])
 def responsetest():
-    return 'Hello World'
+    sentencelength = randint(4, 12)
+    # sentences always start with a name
+    sentence = choice(importantnames)
+    n = 0
+    while n < sentencelength:
+        sentence += f' {choice(fullwords)}'
+        n += 1
+    return sentence
 
 @app.route('/interactions', methods=['POST'])
 @verify_key_decorator(CLIENT_PUBLIC_KEY)
