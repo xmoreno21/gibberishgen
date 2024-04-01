@@ -176,4 +176,5 @@ englishwords = ['a', 'abandon', 'ability', 'able', 'abortion', 'about', 'above',
 'wrong', 'yard', 'yeah', 'year', 'yell', 'yellow', 'yes', 'yesterday', 'yet', 'yield', 'you', 'young', 'your', 'yours', 'yourself', 'youth', 'zone']
 
 # customwords - Random Sound's World specific words that I thought of at midnight lol
-customwords = ['skibidi', 'Discord', 'Head Mod', 'Sound\'s World', 'Sound\'s Utilities', 'YouTube', 'Apple', 'Google', 'moderator', 'appeal', 'Checkr', 'Levelr', 'mute', 'muted', 'banned']
+customwords = ['skibidi', 'Discord', 'Head Mod', 'Sound\'s World', 'Sound\'s Utilities', 'YouTube', 'Apple', 'Google', 'moderator', 'appeal', 'Checkr', 'Levelr', 'mute', 'muted', 'banned',
+'banancat']
