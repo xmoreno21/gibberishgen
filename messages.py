@@ -177,4 +177,5 @@ englishwords = ['a', 'abandon', 'ability', 'able', 'abortion', 'about', 'above',
 
 # customwords - Random Sound's World specific words that I thought of at midnight lol
 customwords = ['skibidi', 'Discord', 'Head Mod', 'Sound\'s World', 'Sound\'s Utilities', 'YouTube', 'Google', 'moderator', 'appeal', 'Checkr', 'Levelr', 'mute', 'muted', 'banned',
-'banancat', 'skibidi toilet', 'Simon Says', 'https://discord.com/channels/452237221840551938/692878100446314516/827287133362192385', 'thug', 'yapper']
+'banancat', 'skibidi toilet', 'Simon Says', 'https://discord.com/channels/452237221840551938/692878100446314516/827287133362192385', 'thug', 'yapper', 'clown', 'you\'re a clown', 
+'PLEASE GIVE ME DISCORD NITRO', 'IM GOING INSANE', 'i have a headache']
